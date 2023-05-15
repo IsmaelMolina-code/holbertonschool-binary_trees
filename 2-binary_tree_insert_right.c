@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * *binary_tree_insert_left - initializes protoype
+ * *binary_tree_insert_right - initializes protoype
  *
  * @parent: pointer to the parent node of the node to create
  *
@@ -12,7 +12,7 @@
  * Return: A pointer to the new node, NULL if it fails
  */
 
-binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	struct binary_tree_s *new_node;
 
