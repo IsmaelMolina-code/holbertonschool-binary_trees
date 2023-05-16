@@ -2,13 +2,13 @@
 
 /**
  * binary_tree_sibling - intializes prototype
- * 
+ *
  * Description: finds node sibling
- * 
+ *
  * @node: pointer to node
- * 
+ *
  * Return: pointer to sibling
-*/
+ */
 
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
