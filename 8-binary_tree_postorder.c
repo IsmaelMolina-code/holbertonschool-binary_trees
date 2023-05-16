@@ -7,7 +7,7 @@
  *
  * @func: pointer to call the function
  *
- * Description: traverses a binary tree using pre-order traversal
+ * Description: traverses a binary tree using post-order traversal
  */
 
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
@@ -18,7 +18,7 @@ void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 			return;
 
 		binary_tree_postorder(tree->left, func);
-		binary_tree_postrder(tree->right, func);
+		binary_tree_postorder(tree->right, func);
 		func(tree->n);
 	}
 }
